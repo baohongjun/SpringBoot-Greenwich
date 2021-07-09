@@ -9,11 +9,13 @@
         <module name="consul-provider" />
         <module name="eureka-server" />
         <module name="config-server" />
+        <module name="nacos-provider" />
         <module name="consul-consumer" />
         <module name="SpringBoot-Greenwich" />
         <module name="eureka-client-feign" />
         <module name="eureka-client" />
         <module name="config-client" />
+        <module name="nacos-consumer" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,6 +28,8 @@
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client-feign" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="nacos-consumer" options="-parameters" />
+      <module name="nacos-provider" options="-parameters" />
     </option>
   </component>
 </project>
