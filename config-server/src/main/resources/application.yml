@@ -1,0 +1,22 @@
+spring:
+  #配置文件名，从数据库中读取,必须为jdbc
+  profiles:
+    active: jdbc
+  application:
+    name: config-server
+  #配置数据库相关的信息
+  datasource:
+    url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    config:
+      #配置的分支，这个需要在数据库中数据对应
+      label: master
+      server:
+        jdbc: true
+server:
+  port: 8765
+spring.cloud.config.server.jdbc.sql: SELECT key1, value1 from config_properties where APPLICATION=? and PROFILE=? and LABEL=?
+

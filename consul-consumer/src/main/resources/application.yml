@@ -1,0 +1,13 @@
+server:
+  port: 8764
+
+spring:
+  application:
+    name: consul-consumer
+  cloud:
+    #consul注册中心
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: consul-consumer
