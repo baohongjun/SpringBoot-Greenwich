@@ -9,15 +9,17 @@
         <module name="consul-provider" />
         <module name="eureka-server" />
         <module name="config-server" />
-        <module name="nacos-provider" />
         <module name="consul-consumer" />
         <module name="SpringBoot-Greenwich" />
         <module name="eureka-client-feign" />
         <module name="eureka-client" />
         <module name="config-client" />
-        <module name="nacos-consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-consumer" target="1.8" />
+      <module name="nacos-provider" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

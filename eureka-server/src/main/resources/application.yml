@@ -3,13 +3,15 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    #hostname: 192.168.239.130
+    #新增-docker 获取本机的真实IP
+    prefer-ip-address: true
   client:
     #registerWithEureka=false,fetchRegistry: false 表明 这是一个eureka server
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    #serviceUrl:
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 spring:
   application:

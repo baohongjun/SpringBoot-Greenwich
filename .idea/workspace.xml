@@ -2,45 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d70e2aa-e546-43c2-a44e-5c2160e13d15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/baohj/nacosconsumer/NacosConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/src/test/java/com/baohj/nacosconsumer/NacosConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/nacos-provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/java/com/baohj/nacosprovider/NacosProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider/src/test/java/com/baohj/nacosprovider/NacosProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/docker/eureka-client-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/docker/eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/baohj/nacosconsumer/NacosConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/test/java/com/baohj/nacosconsumer/NacosConsumerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/nacos-provider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/src/main/java/com/baohj/nacosprovider/NacosProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-provider/src/test/java/com/baohj/nacosprovider/NacosProviderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -62,6 +85,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1uypxFqjp1KdumAzrGloAwQlUlp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,28 +108,154 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos-consumer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.52348995" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringBoot-Greenwich\eureka-client\src\main\resources" />
       <recent name="D:\Work-2021\Workspace-SpingCloud\SpringBoot-Greenwich\nacos-consumer\src\main\resources" />
       <recent name="D:\Work-2021\Workspace-SpingCloud\SpringBoot-Greenwich\nacos-provider\src\main\resources" />
       <recent name="D:\Work-2021\Workspace-SpingCloud\SpringBoot-Greenwich\eureka-client-feign\src\main\resources" />
-      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringBoot-Greenwich\eureka-client\src\main\resources" />
       <recent name="D:\Work-2021\Workspace-SpingCloud\SpringBoot-Greenwich\eureka-server\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
+  <component name="RunManager" selected="Maven.eureka-client [package]">
+    <configuration name="SpringBoot-Greenwich [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-client [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-client" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-client [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-client" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-server [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-server [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.configclient.ConfigClientApplication" />
@@ -155,21 +307,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="nacos-consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.nacosconsumer.NacosConsumerApplication" />
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" server-name="DockerYun">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" server-name="DockerYun">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="eureka-server/src/main/docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose-springcloud" type="docker-deploy" factoryName="docker-compose.yml" server-name="DockerCompose">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-eureka-client" type="docker-deploy" factoryName="dockerfile" server-name="DockerYun">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="eureka-client" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="eureka-client" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8762" />
+                <option name="hostPort" value="8762" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--net=host" />
+          <option name="sourceFilePath" value="eureka-client/src/main/docker/Dockerfile" />
+        </settings>
+      </deployment>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean package -U -DskipTests" />
       </method>
     </configuration>
-    <configuration name="NacosProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="nacos-provider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.nacosprovider.NacosProviderApplication" />
+    <configuration name="docker-eureka-server" type="docker-deploy" factoryName="dockerfile" server-name="DockerYun">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="eureka-server" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="eureka-server" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8761" />
+                <option name="hostPort" value="8761" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--net=host" />
+          <option name="sourceFilePath" value="eureka-server/src/main/docker/Dockerfile" />
+        </settings>
+      </deployment>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean package -U -DskipTests" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Docker.docker-compose-springcloud" />
+      <item itemvalue="Docker.docker-eureka-client" />
+      <item itemvalue="Docker.docker-eureka-server" />
+      <item itemvalue="Maven.eureka-server [clean]" />
+      <item itemvalue="Maven.eureka-server [package]" />
+      <item itemvalue="Maven.eureka-client [clean]" />
+      <item itemvalue="Maven.eureka-client [package]" />
+      <item itemvalue="Maven.SpringBoot-Greenwich [clean]" />
       <item itemvalue="Spring Boot.ConsulProviderApplication" />
       <item itemvalue="Spring Boot.ConsulConsumerApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
@@ -177,9 +408,38 @@
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
       <item itemvalue="Spring Boot.EurekaClientFeignApplication" />
-      <item itemvalue="Spring Boot.NacosProviderApplication" />
-      <item itemvalue="Spring Boot.NacosConsumerApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.eureka-client [package]" />
+        <item itemvalue="Maven.eureka-client [clean]" />
+        <item itemvalue="Maven.eureka-server [package]" />
+        <item itemvalue="Maven.eureka-server [clean]" />
+        <item itemvalue="Maven.SpringBoot-Greenwich [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.29713115" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="DockerCompose" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="DockerYun" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -194,6 +454,7 @@
       <workItem from="1625647931147" duration="4683000" />
       <workItem from="1625706825374" duration="22680000" />
       <workItem from="1625800312690" duration="536000" />
+      <workItem from="1626141941321" duration="36818000" />
     </task>
     <servers />
   </component>
@@ -204,26 +465,54 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625652567390">
+    <state x="360" y="70" key="#Docker" timestamp="1626243806183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1625652567390" />
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1625800852204">
+    <state x="360" y="70" key="#Docker/0.0.1536.824@0.0.1536.824" timestamp="1626243806183" />
+    <state x="361" y="71" key="#New_Docker_Connection" timestamp="1626242598373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625800852204" />
-    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1625800852204">
+    <state x="361" y="71" key="#New_Docker_Connection/0.0.1536.824@0.0.1536.824" timestamp="1626242598373" />
+    <state x="210" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626251961776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625800852204" />
-    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1625800852204">
+    <state x="210" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1626251961776" />
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626226096030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625800852204" />
-    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1625800852204">
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1626226096030" />
+    <state x="477" y="0" key="#docker-eureka-server" timestamp="1626157468676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625800852204" />
+    <state x="477" y="0" key="#docker-eureka-server/0.0.1536.824@0.0.1536.824" timestamp="1626157468676" />
+    <state x="594" y="294" key="DockerComposeFileDialog" timestamp="1626250033898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="594" y="294" key="DockerComposeFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1626250033898" />
+    <state x="490" y="166" key="EnvironmentVariablesDialog" timestamp="1626242614117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="166" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1626242614117" />
+    <state x="507" y="140" key="FileChooserDialogImpl" timestamp="1626243997432">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="140" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626243997432" />
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1626313939571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626313939571" />
+    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1626313939571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626313939571" />
+    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1626313939571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626313939571" />
+    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1626313939571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626313939571" />
     <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1625800852204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -240,14 +529,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625800852204" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1625647951598">
+    <state x="270" y="54" key="SettingsEditor" timestamp="1626244492035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625647951598" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1625800316189">
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626244492035" />
+    <state x="471" y="157" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1626249176638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1625800316189" />
+    <state x="471" y="157" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.0.1536.824@0.0.1536.824" timestamp="1626249176638" />
+    <state x="497" y="146" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize" timestamp="1626249039648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="497" y="146" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1536.824@0.0.1536.824" timestamp="1626249039648" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1626328350875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1626328350875" />
     <state x="243" y="149" key="new project wizard" timestamp="1625800849762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
